@@ -7,3 +7,8 @@
     ssl_session_timeout 10m;
     add_header Strict-Transport-Security "max-age=31536000";
     error_page 497  https://$host$request_uri;
+
+
+
+
+https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=182562922569-p693sulg6q5k5tsb3ll22e0kfllagk1c.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A34129%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file&state=euIc7awcuLgOaK2RihwdRwhcQ7P7XR&access_type=offline
